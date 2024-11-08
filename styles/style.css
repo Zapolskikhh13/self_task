@@ -1,0 +1,307 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 auto;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    width: 1400px;
+}
+header{
+    background-image: url(../resources/backgroung-main.png);
+    height: 765px;
+}
+.nav.container{
+    margin: 0 auto;
+    min-width: 100%;
+    width: 1400px;
+    display: inline-block;
+}
+.logo-link,
+h1,
+.h3_task,
+.h3_task{
+    color: #1bff07;
+}
+.nav-link,
+.projects,
+.name-h3,
+.p-h3,
+.h2_skills,
+.p_skills,
+.h2_task,
+.p_task,
+.h4_footer,
+.h4_footer{
+    color: #fff;
+}
+.logo-link{
+    margin-top: 36px;
+    margin-left: 123px;
+    font-size: 42px;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: -0.11em;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+    border-radius: 100px;
+    width: 255px;
+    height: 44px;
+    background: #000;
+}
+.nav{
+    margin-top: 33px;
+    margin-left: 433px;
+    display: inline-block;
+    vertical-align: top;
+}
+.nav-link{
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-link:nth-last-child(1){
+    margin-right: 0;
+}
+.nav-link:hover{
+    color: #1bff07;
+}
+.about-me{
+    margin-top: 334px;
+    margin-left: 125px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    line-height: 26px;
+    color: #000000;
+}
+h1{
+    margin-top: 29px;
+    margin-left: 119px;
+    font-size: 80px;
+    line-height: 87%;
+    letter-spacing: -0.03em;
+}
+.projects_black{
+    background-color: #000000;
+    background-position: 50% 50%;
+}
+.projects{
+    padding-top: 150px;
+    padding-left: 120px;
+    margin-bottom: 40px;
+    font-size: 55px;
+    letter-spacing: -0.03em;
+
+}
+.project{
+    position: relative;
+    margin-left: 125px;
+
+}
+.name-h3{
+    position: absolute;
+    left: 50px;
+    bottom: 94px;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: -0.03em;
+    line-height: 46px;
+}
+.p-h3{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+}
+.button-link{
+    margin-top: 136px;
+    margin-left: 123px;
+    margin-bottom: 150px;
+    padding: 56px 85px 58px 86px;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    border-radius: 10px;
+    width: 582px;
+    height: 153px;
+    text-align: center;
+    background-color: #1bff07;
+    color: #000;
+}
+.button-link:hover{
+    border: 1px solid #1bff07;
+    background-color: #000000;
+    color: #1bff07;
+}
+.skills_black{
+    padding-left: 123px;
+    background-color: #000000;
+}
+.h2_skills{
+    margin-bottom: 104px;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    }
+.h3_skills_1,
+.h3_skills_2,
+.h3_skills_3,
+.h3_skills_4{
+    position: relative;
+    display: block;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #1bff07;
+}
+.h3_skills_1::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: -58px;
+    background-image: url(../resources/html-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 44px;
+}
+.h3_skills_2::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: -58px;
+    background-image: url(../resources/JS-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 44px;
+}
+.h3_skills_3::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: -58px;
+    background-image: url(../resources/framework-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 44px;
+}
+.h3_skills_4::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: -58px;
+    background-image: url(../resources/mobile-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 44px;
+}
+.p_skills{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 120px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+}
+.tasks_black{
+    padding-left: 125px;
+    padding-bottom: 150px;
+    background-color: #000000;
+}
+.h2_task{
+    padding-top: 30px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+}
+.h3_task{
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+}
+.image_task{
+    margin-top: 74px;
+    border-radius: 30px;
+}
+.h3_p_background{
+    border-radius: 30px;
+    width: 1150px;
+    height: 283px;
+    background: #191c19;
+}
+.p_task{
+    padding-top: 15px;
+    padding-left: 40px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+}
+footer{
+    background-color: #000000;
+}
+.footer{
+    padding-left: 125px;
+    border-radius: 30px;
+    background-color: #191c19;
+    background-image: url(../resources/footer_contacts.png);
+    background-repeat: no-repeat;
+    background-position:100% ;
+}
+.h4_footer{
+    padding-top: 320px;
+    padding-bottom: 28px;
+    font-size: 35px;
+    line-height: 171%;
+    letter-spacing: -0.03em;
+}
+.p_link_footer{
+    padding-bottom: 20px;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #fff;
+}
+.p_link_footer:hover{
+    color: #1bff07;
+}
+.p_link_footer:nth-last-child(1){
+    padding-bottom: 89px;
+}
+.name_footer{
+    padding-left: 125px;
+    background-color: #fff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.portfolio_footer{
+    padding-top: 76px;
+    padding-bottom: 66px;
+    font-size: 22px;
+    letter-spacing: -0.03em;
+    line-height: 30px;
+    color: #000;
+}
+.low_footer{
+    padding-bottom: 90px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    line-height: 27px;
+    color: #000;
+    opacity: 0.5;
+}
